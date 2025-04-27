@@ -9,3 +9,4 @@ if a=='y' :
     greet("Tarnished_one","abbys")
 else:
     print("we are not fated")
+    # this is a test
