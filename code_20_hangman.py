@@ -48,7 +48,7 @@ while not end_of_game :
                 display[position] = letter
 
     # Wrong guess deducts life             
-    if guess not in chosen_word and life is not 0:
+    if guess not in chosen_word and life != 1:
         life -= 1 
         print("you have gussed the wrong word pls TRY AGAIN")
 
